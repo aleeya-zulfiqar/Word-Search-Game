@@ -1,7 +1,7 @@
-const clickSound = new Howl({ src: ['sounds/click.mp3'] });
-const successSound = new Howl({ src: ['sounds/success.mp3'] });
-const failSound = new Howl({ src: ['sounds/fail.mp3'] });
-const tryAgainSound = new Howl({ src: ['sounds/tryagain.mp3'] });
+const clickSound = new Howl({ src: ['click.mp3'] });
+const successSound = new Howl({ src: ['success.mp3'] });
+const failSound = new Howl({ src: ['fail.mp3'] });
+const tryAgainSound = new Howl({ src: ['tryagain.mp3'] });
 
 function celebrateConfetti() {
     confetti({
